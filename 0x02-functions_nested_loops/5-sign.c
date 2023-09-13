@@ -4,14 +4,14 @@
  * description: n will be used with condition
  * @n: the value in question
  *
- * Return:(0) or (1) depending 
+ * Return: (0) or (1) depending
  */
 int print_sign(int n)
 {
 	int negative = -1;
 	char ch = (char) negative;
 
-	if (n > 0)
+        if (n > 0)
 	{
 		_putchar('+');
 		return (1);
@@ -25,4 +25,5 @@ int print_sign(int n)
 	{
                 _putchar('-');
 	        	return (ch);
-	}	
+	}
+}
